@@ -1,0 +1,405 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #fff;
+  height: 70px;
+}
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+li {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+.logo img {
+  height: 40px;
+  padding: 0px 50px;
+}
+.logo {
+  border-right: 1px solid #aa8453;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: white;
+}
+.container-fluid {
+  background-color: #fff;
+  width: 100%;
+}
+.navbar-nav .nav-link {
+  padding-left: 54px;
+}
+.bg {
+  background-image: url("images/image1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.sky_high {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.sky_80 {
+  width: 80%;
+  display: flex;
+}
+.content {
+  width: 65%;
+  padding-right: 75px;
+  background-color: rgb(255, 255, 255);
+}
+.content p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+}
+.content h1 {
+  font-size: 58.8px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.image {
+  background-image: url("images/Philosophy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height: 500px;
+  background-color: #a4ca53;
+}
+@media (max-width: 1200px) {
+  .content h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .sky_80 {
+    flex-direction: column;
+    height: auto;
+  }
+  .sky_high {
+    height: auto;
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+}
+.threePillars {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ad974f;
+}
+.Pillars80 {
+  background-image: url("images/Pattern.jpg");
+  background-size: cover;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.pillarImg {
+  background-image: url("images/Untitled-1.png");
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 500px;
+}
+.pillarContent {
+  padding-left: 75px;
+  width: 65%;
+  height: 500px;
+  color: white;
+}
+.pillarContent p {
+  text-align: justify;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+}
+.pillarContent h1 {
+  font-size: 58.8px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (max-width: 1200px) {
+  .pillarContent h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .Pillars80 {
+    flex-direction: column;
+    height: auto;
+  }
+  .threePillars {
+    height: auto;
+    width: 100%;
+  }
+  .pillarImg {
+    width: 100%;
+    height: 800px;
+  }
+  .pillarContent {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .threePillars {
+    height: 1500px;
+  }
+}
+@media (max-width: 890px) {
+  .Pillars80 {
+    height: 1400px;
+  }
+}
+@media (max-width: 650px) {
+  .threePillars {
+    height: auto;
+  }
+  .Pillars80 {
+    height: 1600px;
+  }
+}
+.FAQs {
+  width: 100%;
+  height: 600px;
+  background-color: #321940;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FAQs80 {
+  background-image: url("images/pattern2.jpg");
+  background-size: cover;
+  width: 80%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contentA {
+  width: 50%;
+  height: 500px;
+  padding-right: 50px;
+}
+.contentA p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 18px;
+}
+.contentA h1 {
+  font-size: 44px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contentB {
+  width: 50%;
+  height: 500px;
+  padding-left: 50px;
+}
+hr {
+  z-index: 100;
+  border: 2px solid white;
+  margin-bottom: 25px;
+}
+@media (max-width: 1000px) {
+  .FAQs80 {
+    flex-direction: column;
+  }
+  .contentA {
+    width: 100%;
+  }
+  .contentA h1 {
+    padding-top: 50px;
+  }
+  .contentB {
+    width: 100%;
+    margin-top: -50px;
+    padding-left: 0px;
+  }
+  .FAQs {
+    height: 800px;
+  }
+}
+@media (max-width: 750px) {
+  .FAQs {
+    height: 950px;
+  }
+  .contentA {
+    margin-top: -200px;
+  }
+}
+span {
+  font-size: 44px;
+  font-family: "Marcellus";
+}
+.form_heading {
+  font-family: poppins semibold;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+  background-color: #ad974f;
+  width: 80%;
+  margin: auto;
+}
+.form_100 {
+  width: 100%;
+  background-color: black;
+}
+.form_container {
+  width: 80%;
+  margin: auto;
+  background-color: #ad974f;
+  border-radius: 4px;
+  padding: 60px;
+}
+.textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: poppins semibold;
+  cursor: pointer;
+}
+.col25 {
+  width: 25%;
+  margin-top: 9px;
+  float: left;
+}
+.col75 {
+  width: 75%;
+  margin-top: 9px;
+  float: left;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#submit {
+  padding: 15px 23px;
+  background-color: #564a4a;
+  float: right;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #372e2e;
+}
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.footer80 {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_footer {
+  width: 32%;
+  text-align: left;
+}
+.logo_footer img {
+  height: 50px;
+}
+.menu {
+  width: 32%;
+  height: 300px;
+}
+.contact {
+  width: 32%;
+  height: 300px;
+}
+.footerR {
+  text-align: left;
+}
+.footerR p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+@media (max-width: 1000px) {
+  .footer80 {
+    flex-direction: column;
+    height: 100px;
+  }
+  .footerR p {
+    width: auto;
+    margin-top: -25px;
+  }
+  .footerR address {
+    width: auto;
+    margin-top: -3px;
+  }
+  .footerR h6 {
+    width: auto;
+    margin-top: -35px;
+  }
+}
+@media (max-width: 700px) {
+  .divlogo p {
+    width: 500px;
+  }
+  .menu {
+    width: auto;
+    margin: 0px;
+  }
+  .contact {
+    width: auto;
+  }
+}
+@media (max-width: 700px) {
+  .divlogo p {
+    width: 400px;
+  }
+}
+
+.part_title {
+  width: 100%;
+}
